@@ -1,0 +1,23 @@
+@import 'variables';
+@import 'globals';
+@import 'mixins';
+
+// app component style
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $blue-dark;
+}
+
+i::before {
+  content: '🇮🇩';
+  display: block;
+  text-align: center;
+}
+
+h1 {
+  color: $white;
+  font-size: 5rem;
+}

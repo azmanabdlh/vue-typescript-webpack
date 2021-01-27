@@ -1,0 +1,45 @@
+{
+  "name": "pwa-vue-typescript-quiz-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "",
+  "author": {
+    "name": "Azman Abdullah",
+    "url": "https://github.com/azmanabdlh"
+  },
+  "scripts": {
+    "build": "NODE_ENV=production webpack --mode production --config webpack-prod.config.js",
+    "dev:serve": "webpack serve --mode development --config webpack-dev.config.js --hot --inline",
+    "dev": "webpack --mode development --config webpack-dev.config.js",
+    "test": "echo 'not implements'"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^2.6.12",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.1.2"
+  },
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "compression-webpack-plugin": "^7.1.2",
+    "css-loader": "^5.0.1",
+    "cssnano": "^4.1.10",
+    "file-loader": "^6.2.0",
+    "html-loader": "^1.3.2",
+    "html-webpack-plugin": "^5.0.0-beta.6",
+    "mini-css-extract-plugin": "^1.3.4",
+    "node-sass": "^5.0.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "postcss-loader": "^4.2.0",
+    "sass-loader": "^10.1.1",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.1.3",
+    "vue-template-compiler": "^2.6.12",
+    "vue-template-loader": "^1.1.0",
+    "webpack": "^5.18.0",
+    "webpack-cli": "^4.4.0",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
